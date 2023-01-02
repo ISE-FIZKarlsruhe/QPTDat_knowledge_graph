@@ -1,0 +1,3 @@
+[submodule "LodView"]
+	path = LodView
+	url = git@github.com:LodLive/LodView.git
