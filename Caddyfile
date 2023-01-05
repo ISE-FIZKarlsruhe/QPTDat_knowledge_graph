@@ -1,0 +1,10 @@
+http://plasma-mds.org {
+    reverse_proxy /sparql virtuoso:8890
+    
+    route /qptdat* {
+        uri replace /qptdat /lodview/qptdat
+        reverse_proxy lodview:8080
+    }
+    reverse_proxy /lodview/staticResources/* lodview:8080
+}
+

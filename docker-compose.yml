@@ -1,6 +1,20 @@
 version: "3.8"
 services: 
-  
+  loadbalancer:
+    image: caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - $PWD/Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      default:
+        aliases:
+          - plasma-mds.org 
   virtuoso: 
     image: tenforce/virtuoso
     restart: unless-stopped
@@ -11,14 +25,40 @@ services:
       - "1111:1111"
     environment:
       - DBA_PASSWORD=${DBA_PASSWORD}
-        #- SPARQL_UPDATE=${SPARQL_UPDATE}
+      - SPARQL_UPDATE=${SPARQL_UPDATE}
       - DEFAULT_GRAPH=${DEFAULT_GRAPH}
 
+  lodview:
+    build: ./LodView
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - LodViewauthUsername=${LodViewauthUsername}
+      - LodViewauthPassword=${LodViewauthPassword}
+      - LodViewIRInamespace=${LodViewIRInamespace}
+      - LodViewendpoint=${LodViewendpoint}
+      - LodViewpublicUrlPrefix=${LodViewpublicUrlPrefix}
+        #- LodViewhomeUrl=${LodViewhomeUrl}
+      - LodViewlicense=${LodViewlicense}
+      - LodViewhttpRedirectPrefix=${LodViewhttpRedirectPrefix}
+      - LodViewhttpRedirectSuffix=${LodViewhttpRedirectSuffix}
+      - LodViewredirectionStrategy=pubby
+      - LodViewcontentEncoding="UTF-8"
+      - LodViewendpointType="virtuoso"
+      - LodViewstaticResourceURL=auto
+      - LodViewforceIriEncoding=auto
+        #- LodViewdefaultInverseBehaviour=open
+        #- LodViewpublicUrlPrefix=auto
+        #- LodViewforceIriEncoding=auto
+        #- LodViewstaticResourceURL=auto
+        #- LodViewpreferredLanguage=auto
+        #- LodViewlast=.
+    depends_on: 
+      - virtuoso
+volumes:
+  caddy_data:
+  caddy_config:
 
-        #  lodview:
-        #    build: ./LodView
-        #    restart: unless-stopped
-        #    ports:
-        #      - "8889:8080"
-        #    depends_on: 
-        #      - virtuoso
+networks:
+  default:
