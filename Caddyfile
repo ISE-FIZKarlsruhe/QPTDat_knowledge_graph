@@ -1,10 +1,42 @@
-http://plasma-mds.org {
+http://qptdat.plasma-mds.org {
     reverse_proxy /sparql virtuoso:8890
     
-    route /qptdat* {
-        uri replace /qptdat /lodview/qptdat
+    route /resource* {
+        uri replace /resource /lodview/resource
         reverse_proxy lodview:8080
     }
+    route /page* {
+        uri replace /page /lodview/page
+        reverse_proxy lodview:8080
+    }
+    route /data* {
+        uri replace /data /lodview/data
+        reverse_proxy lodview:8080
+    }
+    route /ontology* {
+        uri replace /ontology /lodview/ontology
+        reverse_proxy lodview:8080
+    }
+    route /source_ontology* {
+        uri replace /source_ontology /lodview/source_ontology
+        reverse_proxy lodview:8080
+    }
+
     reverse_proxy /lodview/staticResources/* lodview:8080
+    route /raw* {
+        uri replace /raw /lodview/staticResources/data 
+        reverse_proxy lodview:8080
+    }
+    route /linkedResourceTitles/* {
+        uri replace /linkedResourceTitles/ /lodview/linkedResourceTitles/
+        reverse_proxy lodview:8080
+    }
+    route /linkedResourceInverses/* {
+        uri replace /linkedResourceInverses/ /lodview/linkedResourceInverses/
+        reverse_proxy lodview:8080
+    route /linkedResource/* {
+        uri replace /linkedResource/ /lodview/linkedResource/
+        reverse_proxy lodview:8080
+    }
 }
 

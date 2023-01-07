@@ -1,0 +1,67 @@
+@prefix : <http://qptdat.plasma-mds.org/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qpt: <http://qptdat.plasma-mds.org/ontology/> .
+@prefix qpt_source: <http://qptdat.plasma-mds.org/source_ontology/> .
+
+@prefix wd: <> .
+@prefix foaf: <> .
+
+@base <http://qptdat.plasma-mds.org/resource> .
+
+### http://qptdat.plasma-mds.org/resource/e1
+:e1 rdf:type foaf:Person ;
+    rdfs:label "Harald Sack"@en ;
+    foaf:name "Harald Sack"@en ;
+    foaf:givenname "Harald"@en ;
+    foaf:surname "Sack"@en ;
+    owl:sameAs wd:Q30078997 .
+
+### http://qptdat.plasma-mds.org/resource/e2
+:e2 rdf:type foaf:Person ;
+    rdfs:label "Fabian Hoppe"@en ;
+    foaf:name "Fabian Hoppe"@en ;
+    foaf:givenname "Fabian"@en ;
+    foaf:surname "Hoppe"@en ;
+    owl:sameAs wd:Q114718679.
+
+### http://qptdat.plasma-mds.org/resource/e3
+:e3 rdf:type foaf:Person ;
+    rdfs:label "Markus Becker"@en ;
+    foaf:name "Markus Becker"@en ;
+    foaf:givenname "Markus"@en ;
+    foaf:surname "Becker"@en .
+
+### http://qptdat.plasma-mds.org/resource/e4
+:e4 rdf:type foaf:Person ;
+    rdfs:label "Laura Vilardell Scholten"@en ;
+    foaf:name "Laura Vilardell Scholten"@en ;
+    foaf:givenname "Laura"@en ;
+    foaf:surname "Vilardell Scholten"@en .
+
+### http://qptdat.plasma-mds.org/resource/e5
+:e5 rdf:type foaf:Person ;
+    rdfs:label "Ihda Chaerony Siffa"@en ;
+    foaf:name "Ihda Chaerony Siffa"@en ;
+    foaf:givenname "Ihda"@en ;
+    foaf:surname "Chaerony Siffa"@en .
+
+### http://qptdat.plasma-mds.org/resource/e6
+:e6 rdf:type foaf:Person ;
+    rdfs:label "Steffen Franke"@en ;
+    foaf:name "Steffen Franke"@en ;
+    foaf:givenname "Steffen"@en ;
+    foaf:surname "Franke"@en .
+
+### http://qptdat.plasma-mds.org/resource/e7
+:e7 rdf:type foaf:Organization ;
+    rdfs:label "FIZ Karlsruhe"@en ;
+    owl:sameAs wd:Q1388737 .
+
+### http://qptdat.plasma-mds.org/resource/e8
+:e8 rdf:type foaf:Organization ;
+    rdfs:label "INP Greifswald"@en ;
+    owl:sameAs wd:Q1248645 .

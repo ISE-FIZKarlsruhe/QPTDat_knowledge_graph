@@ -1,0 +1,38 @@
+<http://qptdat.plasma-mds.org/resource/e4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://qptdat.plasma-mds.org/resource/e2> <http://xmlns.com/foaf/0.1/givenname> "Fabian"@en .
+<http://qptdat.plasma-mds.org/resource/e2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://qptdat.plasma-mds.org/resource/e3> <http://www.w3.org/2000/01/rdf-schema#label> "Markus Becker"@en .
+<http://qptdat.plasma-mds.org/resource/e6> <http://xmlns.com/foaf/0.1/surname> "Chaerony Siffa"@en .
+<http://qptdat.plasma-mds.org/resource/e3> <http://xmlns.com/foaf/0.1/surname> "Becker"@en .
+<http://qptdat.plasma-mds.org/resource/e7> <http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q1388737> .
+<http://qptdat.plasma-mds.org/resource/e2> <http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q114718679> .
+<http://qptdat.plasma-mds.org/resource/e1> <http://xmlns.com/foaf/0.1/surname> "Sack"@en .
+<http://qptdat.plasma-mds.org/resource/e4> <http://www.w3.org/2000/01/rdf-schema#label> "Laura Vilardell Scholten"@en .
+<http://qptdat.plasma-mds.org/resource/e1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://qptdat.plasma-mds.org/resource/e5> <http://xmlns.com/foaf/0.1/surname> "Franke"@en .
+<http://qptdat.plasma-mds.org/resource/e3> <http://xmlns.com/foaf/0.1/name> "Markus Becker"@en .
+<http://qptdat.plasma-mds.org/resource/e1> <http://www.w3.org/2000/01/rdf-schema#label> "Harald Sack"@en .
+<http://qptdat.plasma-mds.org/resource/e5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://qptdat.plasma-mds.org/resource/e6> <http://xmlns.com/foaf/0.1/givenname> "Ihda"@en .
+<http://qptdat.plasma-mds.org/resource/e4> <http://xmlns.com/foaf/0.1/name> "Laura Vilardell Scholten"@en .
+<http://qptdat.plasma-mds.org/resource/e2> <http://xmlns.com/foaf/0.1/surname> "Hoppe"@en .
+<http://qptdat.plasma-mds.org/resource/e6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://qptdat.plasma-mds.org/resource/e2> <http://www.w3.org/2000/01/rdf-schema#label> "Fabian Hoppe"@en .
+<http://qptdat.plasma-mds.org/resource/e4> <http://xmlns.com/foaf/0.1/surname> "Vilardell Scholten"@en .
+<http://qptdat.plasma-mds.org/resource/e8> <http://www.w3.org/2000/01/rdf-schema#label> "INP Greifswald" .
+<http://qptdat.plasma-mds.org/resource/e8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://qptdat.plasma-mds.org/resource/e6> <http://www.w3.org/2000/01/rdf-schema#label> "Ihda Chaerony Siffa"@en .
+<http://qptdat.plasma-mds.org/resource/e5> <http://xmlns.com/foaf/0.1/givenname> "Steffen"@en .
+<http://qptdat.plasma-mds.org/resource/e4> <http://xmlns.com/foaf/0.1/givenname> "Laura"@en .
+<http://qptdat.plasma-mds.org/resource/e1> <http://xmlns.com/foaf/0.1/name> "Harald Sack"@en .
+<http://qptdat.plasma-mds.org/resource/e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://qptdat.plasma-mds.org/resource/e8> <http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q1248645> .
+<http://qptdat.plasma-mds.org/resource/e1> <http://xmlns.com/foaf/0.1/givenname> "Harald"@en .
+<http://qptdat.plasma-mds.org/resource/e6> <http://xmlns.com/foaf/0.1/name> "Ihda Chaerony Siffa"@en .
+<http://qptdat.plasma-mds.org/resource/e5> <http://www.w3.org/2000/01/rdf-schema#label> "Steffen Franke"@en .
+<http://qptdat.plasma-mds.org/resource/e3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://qptdat.plasma-mds.org/resource/e2> <http://xmlns.com/foaf/0.1/name> "Fabian Hoppe"@en .
+<http://qptdat.plasma-mds.org/resource/e3> <http://xmlns.com/foaf/0.1/givenname> "Markus"@en .
+<http://qptdat.plasma-mds.org/resource/e7> <http://www.w3.org/2000/01/rdf-schema#label> "FIZ Karlsruhe"@en .
+<http://qptdat.plasma-mds.org/resource/e1> <http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q30078997> .
+<http://qptdat.plasma-mds.org/resource/e5> <http://xmlns.com/foaf/0.1/name> "Steffen Franke"@en .

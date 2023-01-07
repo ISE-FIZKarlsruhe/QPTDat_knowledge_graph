@@ -8,13 +8,13 @@ services:
       - "443:443"
       - "443:443/udp"
     volumes:
-      - $PWD/Caddyfile:/etc/caddy/Caddyfile
+      - ./Caddyfile:/etc/caddy/Caddyfile
       - caddy_data:/data
       - caddy_config:/config
     networks:
       default:
         aliases:
-          - plasma-mds.org 
+          - qptdat.plasma-mds.org 
   virtuoso: 
     image: tenforce/virtuoso
     restart: unless-stopped
@@ -39,26 +39,27 @@ services:
       - LodViewIRInamespace=${LodViewIRInamespace}
       - LodViewendpoint=${LodViewendpoint}
       - LodViewpublicUrlPrefix=${LodViewpublicUrlPrefix}
-        #- LodViewhomeUrl=${LodViewhomeUrl}
+      - LodViewhttpRedirectExcludeList=${LodViewhttpRedirectExcludeList}
       - LodViewlicense=${LodViewlicense}
       - LodViewhttpRedirectPrefix=${LodViewhttpRedirectPrefix}
       - LodViewhttpRedirectSuffix=${LodViewhttpRedirectSuffix}
       - LodViewredirectionStrategy=pubby
-      - LodViewcontentEncoding="UTF-8"
-      - LodViewendpointType="virtuoso"
+      - LodViewcontentEncoding=UTF-8
+      - LodViewendpointType=virtuoso
       - LodViewstaticResourceURL=auto
       - LodViewforceIriEncoding=auto
         #- LodViewdefaultInverseBehaviour=open
         #- LodViewpublicUrlPrefix=auto
-        #- LodViewforceIriEncoding=auto
-        #- LodViewstaticResourceURL=auto
         #- LodViewpreferredLanguage=auto
         #- LodViewlast=.
+        #volumes:
+        #- staticV:/usr/local/tomcat/webapps/lodview/resources/data:ro
     depends_on: 
       - virtuoso
 volumes:
   caddy_data:
   caddy_config:
+    #staticV:
 
 networks:
   default:
