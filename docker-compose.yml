@@ -14,7 +14,8 @@ services:
     networks:
       default:
         aliases:
-          - qptdat.plasma-mds.org 
+          - qptdat.plasma-mds.org
+      wiki_network:
   virtuoso: 
     image: tenforce/virtuoso
     restart: unless-stopped
@@ -27,6 +28,8 @@ services:
       - DBA_PASSWORD=${DBA_PASSWORD}
       - SPARQL_UPDATE=${SPARQL_UPDATE}
       - DEFAULT_GRAPH=${DEFAULT_GRAPH}
+    networks:
+      default:
 
   lodview:
     build: ./LodView
@@ -48,18 +51,18 @@ services:
       - LodViewendpointType=virtuoso
       - LodViewstaticResourceURL=auto
       - LodViewforceIriEncoding=auto
-        #- LodViewdefaultInverseBehaviour=open
-        #- LodViewpublicUrlPrefix=auto
-        #- LodViewpreferredLanguage=auto
-        #- LodViewlast=.
-        #volumes:
-        #- staticV:/usr/local/tomcat/webapps/lodview/resources/data:ro
     depends_on: 
       - virtuoso
+    networks:
+      default:
+    
 volumes:
   caddy_data:
   caddy_config:
-    #staticV:
 
 networks:
   default:
+    name: qptdat
+  wiki_network:
+    name: qptdat_wiki
+

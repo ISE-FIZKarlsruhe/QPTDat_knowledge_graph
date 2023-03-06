@@ -1,0 +1,45 @@
+@prefix qpt_shape: <http://qptdat.plasma-mds.org/shape/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix qpt: <http://qptdat.plasma-mds.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix qpt_source: <http://qptdat.plasma-mds.org/source_ontology/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .                                                 
+
+
+qpt_shape:PlasmaStudy a rdfs:Class, sh:NodeShape ;
+    sh:targetClass qpt:PlasmaStudy ;
+    sh:property
+        [
+            sh:path qpt:studyTitle ;
+            sh:minCount 1 ;
+        ] ,
+        [
+            sh:path qpt:hasResearchTopic ;
+            sh:minCount 1 ;
+        ] ,
+        [
+            sh:path qpt:contributor ;
+            sh:minCount 1 ;
+            sh:node qpt_shape:Person ;
+            sh:class qpt:Person ;
+        ] ,
+        [
+            sh:path qpt:hasInputVar ;
+            sh:node qpt_shape:Source ; 
+            sh:minCount 1 ; 
+            sh:class qpt:Source ; 
+        ] .
+qpt_shape:Source a rdfs:Class, sh:NodeShape ;
+            sh:targetClass qpt:Source .
+            
+qpt_shape:Person a rdfs:Class, sh:NodeShape ;
+    sh:targetClass qpt:Person ;
+    sh:property 
+        [ 
+            sh:path foaf:name ;
+            sh:minCount 1 ;
+        ].

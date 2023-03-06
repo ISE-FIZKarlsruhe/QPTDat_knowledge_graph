@@ -1,0 +1,130 @@
+<http://qptdat.plasma-mds.org/diagnostic_ontology/MassSpectrometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Microscope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/EnergyDispersiveXraySpectroscope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Spectroscope> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Imaging> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/ExperimentMethod> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Ellipsometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/EnergyDispersiveXraySpectroscope> <http://www.w3.org/2000/01/rdf-schema#label> "Energy Dispersive X-Ray Spectroscope"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/HighSpeedImaging> <http://www.w3.org/2000/01/rdf-schema#label> "High Speed Imaging"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/RogowskiCoil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ShuntResistor> <http://www.w3.org/2000/01/rdf-schema#label> "Shunt Resistor"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/HighSpeedCamera> <http://www.w3.org/2000/01/rdf-schema#label> "High Speed Camera"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ThermalImaging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/VoltageProbe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/OpticalEmissionSpectrograph> <http://www.w3.org/2000/01/rdf-schema#label> "Optical Emission Spectrograph"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Voltmeter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/AtomProbeTomographe> <http://www.w3.org/2000/01/rdf-schema#label> "Atom Probe Tomographe"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Camera> <http://www.w3.org/2000/01/rdf-schema#label> "Camera"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Galvanometer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/AtomProbeTomography> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Microscope> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/TransientRecorder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Oscilloscope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/EnergyDispersiveXraySpectroscope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/AtomProbeTomography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Detector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/HighSpeedCamera> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Camera> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology> <http://purl.org/dc/elements/1.1/title> "QTPDat Diagnostic Ontology"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/VoltageDifferentialProbe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/VoltageProbe> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/AtomicForceMicroscope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Microscope> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/CurrentProbe> <http://www.w3.org/2000/01/rdf-schema#label> "Current Probe"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Thermometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/MassSpectrometer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Spectroscope> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/OpticalEmissionSpectrograph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Camera> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/AtomicForceMicroscope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/RamanSpectroscope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Spectroscope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Spectroscopy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Ammeter> <http://www.w3.org/2000/01/rdf-schema#label> "Ammeter"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/FiberOpticThermometer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Thermometer> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Microscope> <http://www.w3.org/2000/01/rdf-schema#label> "Microscope"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/RamanSpectroscope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Spectroscope> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Laser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ScanningElectronMicroscope> <http://www.w3.org/2000/01/rdf-schema#label> "Scanning Electron Microscope"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ThermographicCamera> <http://www.w3.org/2000/01/rdf-schema#label> "Thermographic Camera"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/MechanicalMethod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/ExperimentMethod> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/VoltageProbe> <http://www.w3.org/2000/01/rdf-schema#label> "Voltage Probe"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Ammeter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ScanningTunnelingMicroscope> <http://www.w3.org/2000/01/rdf-schema#label> "Scanning Tunneling Microscope"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/CollisionSimulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Pyrometer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Thermometer> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Galvanometer> <http://www.w3.org/2000/01/rdf-schema#label> "Galvanometer"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/VoltageProbe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Imaging> <http://www.w3.org/2000/01/rdf-schema#label> "Imaging"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ThermographicCamera> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Thermometer> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/FourierTransformInfraredSpectrograph> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Spectroscope> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Profilometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/CollisionSimulation> <http://www.w3.org/2000/01/rdf-schema#label> "Collision Simulation"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/CurrentProbe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Galvanometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Spectroscopy> <http://www.w3.org/2000/01/rdf-schema#label> "Spectroscopy"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/VoltageDifferentialProbe> <http://www.w3.org/2000/01/rdf-schema#label> "Voltage Differential Probe"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ElectricalMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Electrical Method"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Oscilloscope> <http://www.w3.org/2000/01/rdf-schema#label> "Oscilloscope"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ShuntResistor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology> <http://www.w3.org/2002/07/owl#versionIRI> <http://qptdat.plasma-mds.org/diagnostic_ontology/v1.0> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Imaging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Camera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Pyrometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/AtomProbeTomographe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ThermographicCamera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/HighSpeedImaging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/MultipoleResonanceProbe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ElectricalMethod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/ExperimentMethod> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Oscilloscope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Microscope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/HighSpeedImaging> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Imaging> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Spectroscope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/MechanicalMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Mechanical Method"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Voltmeter> <http://www.w3.org/2000/01/rdf-schema#label> "Voltmeter"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/FiberOpticThermometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Ellipsometer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/AtomProbeTomography> <http://www.w3.org/2000/01/rdf-schema#label> "Atom Probe Tomography"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/FiberOpticThermometer> <http://www.w3.org/2000/01/rdf-schema#label> "Fiber Optic Thermometer"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ThermographicCamera> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Camera> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/RogowskiCoil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Ellipsometer> <http://www.w3.org/2000/01/rdf-schema#label> "Ellipsometer"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/FourierTransformInfraredSpectrograph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/MechanicalMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/MassSpectrometer> <http://www.w3.org/2000/01/rdf-schema#label> "Mass Spectrometer"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ScanningTunnelingMicroscope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Microscope> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/TransientRecorder> <http://www.w3.org/2000/01/rdf-schema#label> "Transient Recorder"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Laser> <http://www.w3.org/2000/01/rdf-schema#label> "Laser"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/LangmuirProbe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Spectroscopy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/ExperimentMethod> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/LangmuirProbe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ScanningTunnelingMicroscope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/OpticalEmissionSpectrograph> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Spectroscope> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Pyrometer> <http://www.w3.org/2000/01/rdf-schema#label> "Pyrometer"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Laser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/FourierTransformInfraredSpectrograph> <http://www.w3.org/2000/01/rdf-schema#label> "Fourier Transform Infrared Spectrograph"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Voltmeter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/AtomicForceMicroscope> <http://www.w3.org/2000/01/rdf-schema#label> "Atomic Force Microscope"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/RogowskiCoil> <http://www.w3.org/2000/01/rdf-schema#label> "Rogowski Coil"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Profilometer> <http://www.w3.org/2000/01/rdf-schema#label> "Profilometer"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/RamanSpectroscope> <http://www.w3.org/2000/01/rdf-schema#label> "Raman Spectroscope"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/TransientRecorder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Spectroscope> <http://www.w3.org/2000/01/rdf-schema#label> "Spectroscope"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/VoltageDifferentialProbe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/CurrentProbe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Thermometer> <http://www.w3.org/2000/01/rdf-schema#label> "Thermometer"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/HighSpeedCamera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ThermalImaging> <http://www.w3.org/2000/01/rdf-schema#label> "Thermal Imaging"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Ammeter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/LangmuirProbe> <http://www.w3.org/2000/01/rdf-schema#label> "Langmuir Probe"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ScanningElectronMicroscope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Microscope> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Detector> <http://www.w3.org/2000/01/rdf-schema#label> "Detector"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology> <http://www.w3.org/2002/07/owl#imports> <http://qptdat.plasma-mds.org/ontology/v1.0> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ShuntResistor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/MultipoleResonanceProbe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ScanningElectronMicroscope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Thermometer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ElectricalMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "comment"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/Profilometer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/DiagnosticDevice> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/CollisionSimulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/ontology/SimulationMethod> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ThermalImaging> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qptdat.plasma-mds.org/diagnostic_ontology/Imaging> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/AtomProbeTomographe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/MultipoleResonanceProbe> <http://www.w3.org/2000/01/rdf-schema#label> "Multi-pole Resonance Probe"@en .
+<http://qptdat.plasma-mds.org/diagnostic_ontology/ElectricalMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
