@@ -1,5 +1,10 @@
 http://qptdat.plasma-mds.org {
     reverse_proxy /sparql virtuoso:8890
+
+#   MediaWiki causes trouble when used with a reverse proxy
+#    route /wiki* {
+#        reverse_proxy ontology_wiki_mediawiki_1:80
+#    }
     
     route /resource* {
         uri replace /resource /lodview/resource
@@ -16,7 +21,7 @@ http://qptdat.plasma-mds.org {
     route /ontology* {
         uri replace /ontology /lodview/ontology
         reverse_proxy lodview:8080
-    }
+    }`
     route /source_ontology* {
         uri replace /source_ontology /lodview/source_ontology
         reverse_proxy lodview:8080
